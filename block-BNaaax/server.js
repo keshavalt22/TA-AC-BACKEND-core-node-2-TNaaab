@@ -4,6 +4,6 @@ var relativePath = './index.js';
 
 var absolutePath = __dirname;
 
-var indexPath = path.join(__dirname, 'server.js');
+var serverPath = path.join(__dirname, 'server.js');
 
-console.log(relativePath, absolutePath, indexPath);
+console.log(relativePath, absolutePath, __filename, serverPath);

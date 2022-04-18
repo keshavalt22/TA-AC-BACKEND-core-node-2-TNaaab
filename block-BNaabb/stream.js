@@ -10,6 +10,7 @@ req.on('data', (chunk) => {
 })
 req.on('end', () => {
     res.write(store);
+    res.end();
 })
 }
 
